@@ -1,0 +1,45 @@
+BODY{
+    text-align: center;
+}
+
+
+
+DIV{
+    height: 100PX;
+    WIDTH: 200px;
+    display: inline-block; 
+    BORDER:2PX SOLID BLACK;  
+}
+#CONTAINER{
+    width: 600PX;
+    height: 300PX;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* align-content:center; */
+    align-items: flex-start;
+    
+   
+
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: blue;
+    height:200px;
+    /* align-self: flex-end; */
+    flex-shrink: 0;
+
+}
+#box3{
+    background-color: pink;
+    height: 75px;
+}
+#box4{
+    background-color: red;
+}
+#box5{
+    background-color: blueviolet;
+}

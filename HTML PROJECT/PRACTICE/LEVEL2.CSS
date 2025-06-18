@@ -1,0 +1,37 @@
+DIV{
+    height: 100PX;
+    width: 100px;
+    background-color: aqua;
+    border: 2PX black solid;
+    /* transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: steps(8);
+    /* transform: rotate(180deg); */
+    /* transform: scale();
+    transform: translate(500px,); */
+    animation-name:coloranimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+
+
+} 
+@keyframes coloranimation{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: greenyellow;
+    }
+}
+DIV:hover{
+    /* background-color: blue;
+    border: 5px red solid;
+    font-style: italic;
+    border-radius: 10px;
+    font-weight:bold; */
+}
+div:active{}
+    /* background-color: chartreuse;
+} */

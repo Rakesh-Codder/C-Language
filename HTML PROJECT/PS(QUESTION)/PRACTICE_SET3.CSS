@@ -1,0 +1,30 @@
+ #rakesh{
+    height: 350px;
+    width: 150px;
+    background-color: black;
+}
+#one{
+    height: 100px;
+    width:  100px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 20px;
+}
+#two{
+    height: 100px;
+    width:  100px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#three{
+    height: 100px;
+    width:  100px;
+    border-radius: 50%;
+    background-color: orangered;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+} 
